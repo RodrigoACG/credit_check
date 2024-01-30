@@ -1,5 +1,6 @@
-card_number = "5541808923795240"
-
+def card_number = "5541808923795240"
+random = card_number.each_char.map(&to_i)
+p random
 # Your Luhn Algorithm Here
 
 # Output
